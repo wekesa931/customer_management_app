@@ -17,8 +17,8 @@ I opted to use React Js framework because of:
 4. Once the node module are installed, run `npm start` to host it on your browser
 
 ## Testing the Application
-The application should be run in **chrome or firefox browser** (phone or laptop) for optimum performance. Once the app runs, navigate to the *side navigation panel* and click on customers. You can then add customers with the **Add Customers** button and or remove them.
+The application should be run in **chrome or firefox browser** (phone or laptop) for optimum performance. Once the app runs, navigate to the *side navigation panel* and click on customers. You can then add customers with the **Add Customers** button and/or remove them.
 
 Currently the app is not running completely as it ought to. The challenges I faced include:
-1. On form submission, the app is redirected to a different route hence the customer div with details does not appear. This can, however, be corrected by using `jQuery with Ajax` which I later found out and I'm working on. To temporrily manouver this problem, I hav disabled **form authentication** so that the page does no refresh.
-2. Currently, only one customer can be rendered onto the dashboard. I have, however, discovered that to render more customer divs, I have to use array storage with unique keys which I'm also working on at the moment.
+1. On form submission, the app redirects to a different route instead of home. I have hence disabled the submit button leaving it to only validate the form and instead made another button to add the user. This I will corrected using `jQuery with Ajax`. 
+2. Currently, only one customer can be rendered onto the dashboard. This is due to the complexity of adding many users may take more time to finish.
