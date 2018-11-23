@@ -22,3 +22,6 @@ The application should be run in **chrome or firefox browser** (phone or laptop)
 Currently the app is not running completely as it ought to. The challenges I faced include:
 1. On form submission, the app redirects to a different route instead of home. I have hence disabled the submit button leaving it to only validate the form and instead made another button to add the user. This I will corrected using `jQuery with Ajax`. 
 2. Currently, only one customer can be rendered onto the dashboard. This is due to the complexity of adding many users may take more time to finish.
+
+# Hosting
+The site has been hosted [HERE](https://wekesa931.github.io/customer_management_app/)
