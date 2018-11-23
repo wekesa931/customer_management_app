@@ -85,17 +85,17 @@ export default class ModalTab extends Component {
       
       formInstance = (
         <form>
-            <this.FieldGroup id="formControlsText" type="text" label="firstName" placeholder="Enter text"
+            <this.FieldGroup id="formControlsText" type="text" label="First Name" placeholder="Enter text"
                 required
                 onChange = {this.nameHandler}
                 />
       
-            <this.FieldGroup id="formControlsText" type="text" label="secondName" placeholder="Enter text"
+            <this.FieldGroup id="formControlsText" type="text" label="Second Name" placeholder="Enter text"
                 required
                 onChange = {this.lastnameHandler}
                 />
      
-            <this.FieldGroup id="formControlsEmail" type="email" label="Email address" placeholder="Enter email"
+            <this.FieldGroup id="formControlsEmail" type="email" label="Email Address" placeholder="Enter email"
                 required
                 onChange = {this.emailHandler}
                 />
@@ -122,7 +122,7 @@ export default class ModalTab extends Component {
                 onChange = {this.photoHandler}
                 />
       
-          <Button type="button">Form Validation (Disabled due to page redirection)            
+          <Button type="button">Form Validation (Disabled)            
                 </Button>
         </form>
       );
