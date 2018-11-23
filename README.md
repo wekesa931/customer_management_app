@@ -3,12 +3,12 @@ The purpose of this project is to create an aplication that can easily manage cu
 
 ### REACT js
 I opted to use React Js framework because of:
-######## 1. The JSX feature which means we create the DOM using Javascript and different modules hence creating clean code
-######## 2. React allows us create reusable code hence we achieve more but work less
-######## 3. It creates SINGLE PAGE APPLICATIONS meaning that there is no continued page refresh making the app faster and suitable for offline use.
-######## 4. React STATE property alows us to detect changes in the application and render the DOM without refreshing the page hence we achieve more for just a liitle coding.
-######## 5. React is good for content management and its ability to create templates means that the code can be used and reused for a long time before it needs any updating
-######## 6. React allows us to use other frameworks and dependencies like BOOTSTRAP which further enhances our experience with the application and improves te quality
+1. The JSX feature which means we create the DOM using Javascript and different modules hence creating clean code
+2. React allows us create reusable code hence we achieve more but work less
+3. It creates SINGLE PAGE APPLICATIONS meaning that there is no continued page refresh making the app faster and suitable for offline use.
+4. React STATE property alows us to detect changes in the application and render the DOM without refreshing the page hence we achieve more for just a liitle coding.
+5. React is good for content management and its ability to create templates means that the code can be used and reused for a long time before it needs any updating
+6. React allows us to use other frameworks and dependencies like BOOTSTRAP which further enhances our experience with the application and improves te quality
 
 ## Running The App Locally
 1. Ensure you have installed node on your computer
