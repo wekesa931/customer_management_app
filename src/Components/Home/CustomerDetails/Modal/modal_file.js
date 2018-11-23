@@ -91,7 +91,7 @@ export default class ModalTab extends Component {
     /*  the form is then created here */ 
       
       formInstance = (
-        <form onSubmit={this.finishForm}>
+        <form>
             <this.FieldGroup id="formControlsText" type="text" label="First Name" placeholder="Enter text"
                 required
                 onChange = {this.nameHandler}
@@ -129,8 +129,10 @@ export default class ModalTab extends Component {
                 onChange = {this.photoHandler}
                 />
             <hr/>
-          <Button type="submit">Add Customer            
-                </Button>
+          <Button type="submit"
+            onClick={this.finishForm}
+                >Add Customer            
+            </Button>
         </form>
       );
       
