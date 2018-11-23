@@ -1,4 +1,4 @@
-# CUSTOMER MANAGEMENT SYSTEM
+# CUSTOMER MANAGEMENT APP - ReactJs
 The purpose of this project is to create an aplication that can easily manage customers by creating a div with all their details
 
 ### REACT js
