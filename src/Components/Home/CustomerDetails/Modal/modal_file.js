@@ -68,12 +68,7 @@ export default class ModalTab extends Component {
         photoHandler=(event)=>{ this.setState({  photo:event.target.value }) }
       
         nosubmit=(event)=>event.preventDefault
-        closer=()=>this.handleClose()
-
-        finishForm =()=>{
-            this.nosubmit.bind(this)
-            this.closer()
-        }
+        
         
 
 
@@ -91,7 +86,7 @@ export default class ModalTab extends Component {
     /*  the form is then created here */ 
       
       formInstance = (
-        <form>
+        <form onSubmit={this.nosubmit}>
             <this.FieldGroup id="formControlsText" type="text" label="First Name" placeholder="Enter text"
                 required
                 onChange = {this.nameHandler}
@@ -129,9 +124,7 @@ export default class ModalTab extends Component {
                 onChange = {this.photoHandler}
                 />
             <hr/>
-          <Button type="submit"
-            onClick={this.finishForm}
-                >Add Customer            
+          <Button type="submit">Validate            
             </Button>
         </form>
       );
@@ -157,6 +150,11 @@ render() {
                 <Modal.Body>
                     {this.formInstance}
                         </Modal.Body>
+                        <Modal.Footer>
+                            <Button type='button'
+                                onClick={this.handleClose}
+                            >Add Customer</Button>
+                        </Modal.Footer>
           </Modal>
 
 
