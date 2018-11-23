@@ -1,0 +1,105 @@
+.header{
+    background: #fdfdfd;
+    box-shadow: 0vw 0vw 5vw 0vw #ccc;
+}
+.header-options{
+    display: flex;
+}
+.main-logo{
+    flex-grow: 1;
+    padding: 2%;
+}
+.main-logo img{
+    width: 77%;
+   
+}
+.nav-links{
+    margin: auto;
+    width: 200%;
+}
+.user-pic-holder {
+    display: none;
+}
+
+.nav-links a{
+    text-decoration: none;
+    color: black;
+    font-size: 3vw;
+    margin-left: 25%;
+}
+
+
+
+@media only screen and (min-width: 800px) {
+    .bars {
+        display: none;
+    }
+    .header {
+        box-shadow: 0vw 0vw 5vw 0vw #ccc;
+        width: 79%;
+        height: 11vw;
+        float: right;
+    }
+    .user-pic-holder {
+        display: block;
+        background-image: url('./SideNav/images/user.png');
+        background-size: contain;
+        border-radius: 50%;
+        margin-left: 55%;
+        background-repeat: no-repeat;
+        width: 10%;
+    }
+    .main-logo, .main-logo img {
+       
+        display: none;
+    }
+    .header-options {
+        /* width: 7%; */
+        display: flex;
+        /* border-top: 1.25px solid black; */
+        /* height: 8.5vw; */
+    }
+    .nav-links a {
+        font-size: 1.4vw;
+    }
+    .nav-links {
+        padding: 2% 0 0 0%;
+        width: 7%;
+        margin: 4% 0 3% 9%;
+    }
+    
+}
+
+
+
+@media only screen and (min-width: 1200px) {
+    body {
+        margin: 0 10%;
+    }
+    .header {
+        box-shadow: 0vw 0vw 5vw 0vw #ccc;
+        width: 87%;
+        float: right;
+        height: 6vw;
+    }
+    .nav-links a {
+        text-decoration: none;
+        color: black;
+        font-size: 0.8vw;
+        margin-left: 0%;
+    }
+    .nav-links {
+        /* padding: 0% 0 0 0%; */
+        width: 0%;
+        margin: 2% 0 3% 5%;
+    }
+    .user-pic-holder {
+        background-image: url('./SideNav/images/user.png');
+        background-size: contain;
+        border-radius: 50%;
+        margin-left: 80%;
+        background-repeat: no-repeat;
+        width: 7%;
+    }
+
+}

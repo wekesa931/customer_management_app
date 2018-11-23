@@ -1,0 +1,83 @@
+.customer-sort{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+.customer-type,.button{
+    width: 50%;
+}
+.button button{
+    margin: 10% 0 0 10%;
+    background-color: #E66425;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+    font-size: 2.2vw;
+    box-shadow: blue;
+    border-radius: 4%;
+    width: 80%;
+    border: 1px solid #E66425;
+    padding: 4%;
+    box-shadow: 0vw 0vw 5vw 1vw #ccc;
+}
+.type{
+    margin: 10% 0 0 10%;
+    font-size: 2.2vw;
+    padding: 2vw;
+    width: 20vw;
+    box-shadow: 0vw 0vw 4vw 0vw #ccc;
+}
+
+
+
+@media screen and (min-width: 800px) {
+    
+    .type {
+        margin: 10% 0 0 10%;
+        font-size: 1.8vw;
+        padding: 0.5vw;
+        width: 9vw;
+        box-shadow: 0vw 0vw 4vw 0vw #ccc;
+    }
+    .button button {
+        margin: 10% 0 0 50%;
+        font-size: 1.6vw;
+        border-radius: 3%;
+        width: 50%;
+        padding: 3%;
+        box-shadow: 0vw 0vw 1vw 0.3vw #ccc;
+    }
+    .customer-sort {
+        display: flex;
+        flex-wrap: wrap;
+        width: 73%;
+        margin-left: 25%;
+        /* float: left; */
+    }
+}
+
+
+
+@media screen and (min-width: 1200px) {
+    .type {
+        font-size: 0.7vw;
+        width: 7vw;
+        box-shadow: 0vw 0vw 1vw 0vw #ccc;
+    }
+    .button button {
+        margin: 10% 0 0 50%;
+        font-size: 0.8vw;
+        border-radius: 3%;
+        width: 46%;
+        padding: 2%;
+        box-shadow: 0vw 0vw 1vw 0.3vw #ccc;
+    }
+    .customer-sort {
+        display: flex;
+        flex-wrap: wrap;
+        width: 83%;
+        margin-left: 16%;
+        /* float: left; */
+    }
+    
+}
